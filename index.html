@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com  -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinerja 532</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="images/biru bagus.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text"></span>
+            <h1>Kinerja Penerimaan</h1>
+            <h4>- Target = 908.902.760.000</h4>
+            <h4>- Realisasi s.d. saat ini : 800.405.121.158</h4>
+            <h4>- % Capaian = 88,06%</h4>
+            <h4>- Realisasi Desember = 2.161.894.019</h4>
+
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/biru+kuning.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text"></span>
+            <h1>Penyampaian SPT</h1>
+            <h4>- Target = 95.645</h4>
+            <h4>- SPT s.d. saat ini = 82.499</h4>
+            <h4>- Capaian = 86.26%</h4>
+            <h4>- Kekurangan SPT = 13.146</h4>
+            
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/Biru Mograph.jpg" alt="" class="image" />
+          <div class="image-data">
+            <span class="text"></span>
+            <h1>Dana Desa</h4>
+            <h4>- Pagu Anggaran = 1000</h4>
+            <h4>- Pembayaran s.d. saat ini = 2000</h4>
+            <h4>- Capaian = 3000%</h4>
+            <h4>- % realisasi pembayaran = 4000</h4>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
